@@ -1,5 +1,5 @@
 :root {
-  --light-blue: #23A6F0;
+  --light-blue: #23a6f0;
   --light-grey: #737373;
 
   --header-font-size: 14px;
@@ -10,7 +10,8 @@
   padding: 0;
 }
 
-body, html {
+body,
+html {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
@@ -63,7 +64,7 @@ address {
   }
 }
 
-.brand-and-navigation  {
+.brand-and-navigation {
   display: flex;
   gap: 8rem;
   align-items: center;
@@ -92,4 +93,33 @@ address {
 .navigation-header {
   color: var(--light-grey);
   font-weight: bold;
+}
+
+.navigation-header li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.navigation-header li a:hover {
+  fill: red;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.search-and-cart {
+  img {
+    width: 1.05rem;
+  }
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 6.5rem;
+  padding: 0.5rem 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
 }

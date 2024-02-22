@@ -48,12 +48,18 @@
 
           <nav class="navigation-header">
             <ul class="list-style">
-              <li>Home</li>
-              <li>Shop</li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>Pages</li>
+              <li><a href="">Home</a></li>
+              <li class="dropdown">
+                <a href="">Shop</a>
+                <img src="images/icons/dropdown-icon.svg" alt="" />
+                <ul class="dropdown-menu">
+                  <li><a href="">Products</a></li>
+                </ul>
+              </li>
+              <li><a href="">About</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Pages</a></li>
             </ul>
           </nav>
         </div>
@@ -68,13 +74,19 @@
             </ul>
           </nav>
 
-          <nav>
+          <nav class="search-and-cart">
             <ul class="list-style">
               <li>
                 <img src="images/icons/search-icon.svg" alt="" />
               </li>
-              <li><img src="images/icons/cart-icon.svg" alt="" /></li>
-              <li><img src="images/icons/favorite-icon.svg" alt="" /></li>
+              <li>
+                <img src="images/icons/cart-icon.svg" alt="" />
+                <span class="counter">1</span>
+              </li>
+              <li>
+                <img src="images/icons/favorite-icon.svg" alt="" />
+                <span class="counter">1</span>
+              </li>
             </ul>
           </nav>
         </div>
