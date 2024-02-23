@@ -5,11 +5,18 @@
   color: #ffffff;
   display: flex;
   font-weight: bold;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 3.625rem;
-  padding: 0 2rem;
   font-size: var(--header-font-size);
+}
+
+.content {
+  width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
 }
 
 .list-style {
@@ -36,11 +43,9 @@ address {
 
 .header-bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0 2rem;
   height: 5rem;
-  border-bottom: 0.1px solid black;
   font-size: var(--header-font-size);
 
   h3 {

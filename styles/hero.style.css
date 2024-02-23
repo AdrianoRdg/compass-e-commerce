@@ -9,12 +9,12 @@
 .hero-container {
   background: rgb(150, 233, 251);
   background: linear-gradient(
-    0deg,
-    rgba(150, 233, 251, 1) 50%,
+    90deg,
+    rgba(150, 233, 251, 1) 25%,
     rgba(171, 236, 214, 1) 100%
   );
-  width: 80rem;
-  height: 38rem;
+  width: 80.75rem;
+  height: 38.87rem;
   border-radius: 20px;
   display: flex;
   position: relative;
@@ -25,7 +25,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  /* border: 1px solid black; */
   position: relative;
   left: 6rem;
   top: 11rem;
@@ -66,4 +65,15 @@
   position: absolute;
   bottom: 0.1rem;
   left: 41rem;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 31rem;
+  height: 31rem;
+  position: absolute;
+  /* z-index: 1; */
+  left: 49rem;
+  bottom: 8.5rem;
 }
