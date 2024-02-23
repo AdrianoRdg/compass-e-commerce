@@ -107,7 +107,8 @@ address {
   font-weight: bold;
 }
 
-.search-and-cart {
+.search-and-cart ul {
+  gap: 0.6rem;
   img {
     width: 1.05rem;
   }
