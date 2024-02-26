@@ -61,19 +61,60 @@
   margin: 1.4rem 0;
 }
 
+.hero-left-content button:hover {
+  background-color: var(--midnight-blue);
+}
+
 .hero-container img {
   position: absolute;
   bottom: 0.1rem;
-  left: 41rem;
+  left: 42rem;
 }
 
 .circle {
   background-color: white;
   border-radius: 50%;
+}
+
+.c1 {
   width: 31rem;
   height: 31rem;
   position: absolute;
-  /* z-index: 1; */
-  left: 49rem;
-  bottom: 8.5rem;
+  left: 50.5rem;
+  bottom: 8.6rem;
+}
+
+.c2 {
+  width: 4.93rem;
+  height: 4.93rem;
+  position: absolute;
+  left: 47rem;
+}
+
+.c3 {
+  width: 1.95rem;
+  height: 1.95rem;
+  position: absolute;
+  left: 82.3rem;
+  top: 15rem;
+  z-index: 1;
+}
+
+.c4 {
+  background-color: #977df4;
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  left: 84rem;
+  top: 8rem;
+}
+
+.c5 {
+  background-color: #977df4;
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  left: 47rem;
+  top: 26rem;
+  z-index: 2;
 }
