@@ -1,0 +1,120 @@
+@import url(global.styles.css);
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.hero-container {
+  background: rgb(150, 233, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(150, 233, 251, 1) 25%,
+    rgba(171, 236, 214, 1) 100%
+  );
+  width: 80.75rem;
+  height: 38.87rem;
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+}
+
+.hero-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  left: 6rem;
+  top: 11rem;
+  height: 18rem;
+}
+
+.hero-left-content h1 {
+  font-size: 58px;
+  padding: 1.5rem 0;
+  color: var(--midnight-blue);
+}
+
+.hero-left-content h4 {
+  font-size: 20px;
+  color: var(--light-grey);
+  font-weight: 400;
+  width: 23rem;
+}
+
+.hero-left-content h5 {
+  color: var(--deep-blue);
+  font-size: 16px;
+}
+
+.hero-left-content button {
+  background-color: var(--light-blue);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  width: 12rem;
+  height: 3.4rem;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 1.4rem 0;
+}
+
+.hero-left-content button:hover {
+  background-color: var(--midnight-blue);
+}
+
+.hero-container img {
+  position: absolute;
+  bottom: 0.1rem;
+  left: 42rem;
+}
+
+.circle {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.c1 {
+  width: 31rem;
+  height: 31rem;
+  position: absolute;
+  left: 50.5rem;
+  bottom: 8.6rem;
+}
+
+.c2 {
+  width: 4.93rem;
+  height: 4.93rem;
+  position: absolute;
+  left: 47rem;
+}
+
+.c3 {
+  width: 1.95rem;
+  height: 1.95rem;
+  position: absolute;
+  left: 82.3rem;
+  top: 15rem;
+  z-index: 1;
+}
+
+.c4 {
+  background-color: #977df4;
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  left: 84rem;
+  top: 8rem;
+}
+
+.c5 {
+  background-color: #977df4;
+  width: 0.95rem;
+  height: 0.95rem;
+  position: absolute;
+  left: 47rem;
+  top: 26rem;
+  z-index: 2;
+}

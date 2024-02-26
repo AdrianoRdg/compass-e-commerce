@@ -1,0 +1,24 @@
+@import url(header.style.css);
+@import url(hero.style.css);
+@import url(brands.styles.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}

@@ -1,0 +1,6 @@
+.brands {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 14rem;
+  align-items: center;
+}
