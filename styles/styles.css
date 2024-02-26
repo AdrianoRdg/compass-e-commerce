@@ -1,5 +1,6 @@
 @import url(header.style.css);
 @import url(hero.style.css);
+@import url(brands.styles.css);
 
 * {
   margin: 0;
