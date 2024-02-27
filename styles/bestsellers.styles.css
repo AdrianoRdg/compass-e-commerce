@@ -1,0 +1,89 @@
+.top-products {
+  gap: 1rem;
+  display: flex;
+  height: 35.8rem;
+  margin: 2rem 0;
+}
+
+.top-products-left {
+  position: relative;
+}
+
+.label-overlay {
+  background-color: rgba(45, 139, 192, 0.75);
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+.top-products-left div {
+  width: 26rem;
+  height: 14rem;
+}
+
+.top-products-left h3 {
+  width: 12rem;
+  font-size: 24px;
+  margin: 3rem 0 2rem 0.2rem;
+}
+
+.top-products-left h3,
+button {
+  margin-left: 4rem;
+}
+
+.explore-items-btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  width: 12rem;
+  height: 3.25rem;
+}
+
+.top-products-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.41rem;
+}
+
+.card {
+  position: relative;
+  background-size: cover;
+}
+
+.card img {
+  display: block;
+}
+
+.top-products-right div.label-overlay > button,
+h3 {
+  margin-left: 2rem;
+}
+
+.card-top .label-overlay {
+  width: 21.68rem;
+  height: 10.81rem;
+}
+
+.card-bottom .label-overlay {
+  width: 22.5rem;
+  height: 9.56rem;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.card-top h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-bottom h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 1.5rem;
+}
