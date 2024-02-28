@@ -1,0 +1,90 @@
+.bestsellers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.bestsellers h3 {
+  font-size: 24px;
+  color: var(--midnight-blue);
+  margin: 0.7rem 0;
+}
+
+.bestsellers h4,
+.bestsellers p {
+  color: var(--light-grey);
+  font-weight: 500;
+}
+
+.bestsellers-container {
+  width: 67.68rem;
+  height: 53.9375rem;
+  display: grid;
+  grid-template-columns: repeat(5, 11.4375rem);
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin: 2rem 0;
+}
+
+.bestsellers-card {
+  width: 11.4375rem;
+  height: 25rem;
+}
+
+.bestsellers-card img {
+  display: block;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 10.125rem;
+}
+
+.card-content h5 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-content a {
+  text-decoration: none;
+  color: var(--light-grey);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 1.4rem 0;
+}
+
+.prices {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.prices h5:nth-child(1) {
+  color: #bdbdbd;
+}
+
+.prices h5:nth-child(2) {
+  color: #23856d;
+}
+
+.load-more-products-btn {
+  width: 16rem;
+  height: 3.25rem;
+  background-color: transparent;
+  border: 2px solid var(--light-blue);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--light-blue);
+  font-weight: 700;
+}
+
+.load-more-products-btn:hover {
+  background-color: var(--light-blue);
+  color: white;
+}
