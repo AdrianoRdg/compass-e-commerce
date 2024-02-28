@@ -1,21 +1,33 @@
 .bestsellers {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 5rem 0;
+}
+
+.bestsellers h3 {
+  font-size: 24px;
+  color: var(--midnight-blue);
+  margin: 0.7rem 0;
+}
+
+.bestsellers h4,
+.bestsellers p {
+  color: var(--light-grey);
+  font-weight: 500;
 }
 
 .bestsellers-container {
   width: 67.68rem;
   height: 53.9375rem;
-  border: 1px solid violet;
   display: grid;
   grid-template-columns: repeat(5, 11.4375rem);
   grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
   gap: 1.6rem;
+  margin: 2rem 0;
 }
 
 .bestsellers-card {
