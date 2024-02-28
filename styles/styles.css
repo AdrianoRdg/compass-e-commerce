@@ -4,6 +4,7 @@
 @import url(top-products.styles.css);
 @import url(featured.styles.css);
 @import url(bestsellers.styles.css);
+@import url(footer.styles.css);
 
 * {
   margin: 0;

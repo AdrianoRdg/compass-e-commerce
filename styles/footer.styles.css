@@ -1,0 +1,43 @@
+footer {
+  background-color: #fafafa;
+}
+
+.footer-content {
+  background-color: white;
+}
+
+.footer-content > div {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  height: 17rem;
+  align-items: center;
+  width: 1440px;
+}
+
+.footer-content > div ul {
+  list-style: none;
+}
+
+.top-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8.875rem;
+}
+
+.top-footer h3 {
+  font-size: 24px;
+}
+
+.top-footer ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  height: 4.625rem;
+}
