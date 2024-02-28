@@ -29,7 +29,7 @@
 }
 
 .top-products-left h3,
-button {
+.top-products-left button {
   margin-left: 4rem;
 }
 
@@ -59,8 +59,8 @@ button {
   display: block;
 }
 
-.top-products-right div.label-overlay > button,
-div.label-overlay > h3 {
+.top-products-right .label-overlay > h3,
+.top-products-right .label-overlay > button {
   margin-left: 2rem;
 }
 

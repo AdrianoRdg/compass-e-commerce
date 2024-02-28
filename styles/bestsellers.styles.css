@@ -72,3 +72,19 @@
 .prices h5:nth-child(2) {
   color: #23856d;
 }
+
+.load-more-products-btn {
+  width: 16rem;
+  height: 3.25rem;
+  background-color: transparent;
+  border: 2px solid var(--light-blue);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--light-blue);
+  font-weight: 700;
+}
+
+.load-more-products-btn:hover {
+  background-color: var(--light-blue);
+  color: white;
+}
