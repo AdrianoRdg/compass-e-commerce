@@ -1,6 +1,7 @@
 .top-products {
   gap: 1rem;
   display: flex;
+  justify-content: center;
   height: 35.8rem;
   margin: 2rem 0;
 }
@@ -59,7 +60,7 @@ button {
 }
 
 .top-products-right div.label-overlay > button,
-h3 {
+div.label-overlay > h3 {
   margin-left: 2rem;
 }
 
