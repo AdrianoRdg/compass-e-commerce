@@ -111,6 +111,11 @@
   color: #23a6f0;
 }
 
+.post-card-content button:hover {
+  background-color: #23a6f0;
+  color: white;
+}
+
 .post-card-content > .prices h5 {
   font-size: 14px;
 }
