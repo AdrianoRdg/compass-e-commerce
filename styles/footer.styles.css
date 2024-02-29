@@ -83,10 +83,17 @@ footer {
   list-style: none;
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .bottom-footer {
   display: flex;
   align-items: center;
   height: 4.625rem;
+}
+
+.bottom-footer h6 {
+  font-size: 14px;
+  color: var(--light-grey);
+  font-weight: 700;
 }
