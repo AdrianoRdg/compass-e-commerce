@@ -23,6 +23,11 @@ footer {
   color: var(--midnight-blue);
 }
 
+.footer-content a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer-content li {
   color: var(--light-grey);
   font-size: 14px;
