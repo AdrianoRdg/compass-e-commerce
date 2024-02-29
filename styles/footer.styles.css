@@ -9,7 +9,6 @@ footer {
 .footer-content > div {
   display: flex;
   justify-content: space-between;
-  border: 1px solid black;
   height: 17rem;
   align-items: center;
   width: 1440px;
@@ -17,6 +16,56 @@ footer {
 
 .footer-content > div ul {
   list-style: none;
+}
+
+.footer-content h5 {
+  font-size: 16px;
+  color: var(--midnight-blue);
+}
+
+.footer-content li {
+  color: var(--light-grey);
+  font-size: 14px;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.footer-content form {
+  height: 10.6875rem;
+}
+
+.footer-content form button {
+  width: 7.3125rem;
+  height: 3.625rem;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--light-blue);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.footer-content form input {
+  width: 12.75rem;
+  height: 3.61rem;
+  background-color: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.footer-content form input::placeholder {
+  padding-left: 0.5rem;
+}
+
+.footer-content form h5 {
+  margin-bottom: 1rem;
+}
+
+.footer-content form p {
+  margin-top: 0.2rem;
+  font-size: 12px;
+  color: var(--light-grey);
 }
 
 .top-footer {
