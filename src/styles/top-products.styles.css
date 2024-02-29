@@ -44,6 +44,10 @@
   height: 3.25rem;
 }
 
+.explore-items-btn:hover {
+  background-color: rgba(45, 139, 192, 1);
+}
+
 .top-products-right {
   display: flex;
   flex-direction: column;
