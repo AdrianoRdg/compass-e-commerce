@@ -5,6 +5,7 @@
 @import url(featured.styles.css);
 @import url(bestsellers.styles.css);
 @import url(footer.styles.css);
+@import url(featured-posts.css);
 
 * {
   margin: 0;
